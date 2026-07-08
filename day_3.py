@@ -71,5 +71,65 @@
 # sq = lambda x:x*x
 # print(sq(100))
 
-add = lambda a,b:a+b
-print(add(10,20))
+# add = lambda a,b:a+b
+# print(add(10,20))
+
+# thima = lambda x:"even" if x%2 ==0 else "odd"
+# print(thima(18))
+# print(thima(2))
+
+# n="Keerthan"
+# print(n.upper())
+# print(n.lower())
+
+# file=open("student.txt","w")
+# file.write("Annoooo sak annoooo.....")
+# file.close()
+
+# print("Done")
+
+# file=open("student.txt","r")
+# data = file.read()
+# print(data)
+# file.close()
+
+# file=open("student.txt","a")
+# file.write("Annoooo sak annoooo.....")
+# file.close()
+
+# print("Done")
+
+
+# file=open("student.txt","r")
+# print(file.read())
+# file.close()
+
+# try:
+#     a=10
+#     b=0
+#     print(a/b)
+# except:
+#     print("Naa bro..learn basics")          
+
+# try:
+#     n=int(input("enter n:"))
+#     print(n)
+# except ValueError:
+#     print("only number allowed!"
+
+# try:
+#     a=int(input("Enter a:"))
+#     b=int(input("Enter b:"))
+#     print(a/b)
+# except ValueError:
+#     print("******")
+# except ZeroDivisionError:
+#     print("only nos")
+
+# try:
+#     file=open("student.txt")
+#     print(file.read())
+# except:
+#     print("file error")
+# finally:
+#     print("Program completed")
