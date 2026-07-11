@@ -30,9 +30,9 @@ print("-----------Hourly_Forecast-------------")
 hourly = data["weather"][0]["hourly"]
 for hour in hourly:
     print(
-        f"Time: {hour['time']}    "
-        f"Dew_PointC: {hour['DewPointC']}C    "
-        f"chance_of_rain: {hour['chanceofrain']}    "
+        f"Time: {hour['time']}  |  "
+        f"Dew_PointC: {hour['DewPointC']}C  |  "
+        f"chance_of_rain: {hour['chanceofrain']}  |  "
         f"Wind_ChillC: {hour['WindChillC']}C"
     )
 
