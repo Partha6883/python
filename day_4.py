@@ -223,13 +223,15 @@ def message(func):
 # data=response.json()
 # print(data)
 
-import requests
+# import requests
 
-response = requests.get("https://api.github.com/users/python")
+# response = requests.get("https://api.github.com/users/python")
 
-print(response)
-print(response.status_code)
-print(response.json())
+# print(response)
+# print(response.status_code)
+# print(response.json())
+
+
 
 
 
