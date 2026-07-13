@@ -1,0 +1,66 @@
+Home
+│
+├── Navigation Bar
+│   ├── Logo
+│   ├── Home
+│   ├── Courses
+│   ├── About
+│   ├── Success Stories
+│   ├── Contact
+│   └── Login Button
+│
+├── Hero Section
+│   ├── Large Heading
+│   ├── Subtitle
+│   ├── Two CTA Buttons
+│   ├── Search Bar
+│   └── Student Illustration
+│
+├── Trusted By
+│   ├── Microsoft
+│   ├── Google
+│   ├── IBM
+│   ├── Amazon
+│   └── Infosys
+│
+├── Popular Courses
+│   ├── Python Full Stack
+│   ├── Java Full Stack
+│   ├── Data Science
+│   ├── UI/UX
+│   ├── AI & ML
+│   └── Cyber Security
+│
+├── Why Choose Us
+│   ├── Live Classes
+│   ├── Projects
+│   ├── Certifications
+│   ├── Internship
+│   ├── Placement Support
+│   └── Lifetime Access
+│
+├── Learning Roadmap
+│   Step 1
+│   Step 2
+│   Step 3
+│   Step 4
+│
+├── Course Statistics
+│   👨‍🎓 Students
+│   📚 Courses
+│   ⭐ Ratings
+│   💼 Placements
+│
+├── Student Testimonials
+│
+├── Meet Our Trainers
+│
+├── Pricing Plans
+│
+├── FAQ (Accordion)
+│
+├── Registration Form
+│
+├── Newsletter
+│
+└── Footer

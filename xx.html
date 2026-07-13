@@ -1,0 +1,532 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Day 1 Html 
+    </title>
+    <link rel="stylesheet" href="xx.css">
+</head>
+<body>
+    <h1 class="glitter-text">Welcome to Jadaal Samanna </h1>
+    <p class="fade-slide-text">Learning Day1 Html Python Full-Stack</p>
+    <div class="fade-slide-text">
+        Header
+    </div>
+    <div class="fade-slide-text"> 
+        Content
+    </div>
+</body>
+</html>
+
+<h1 class="glitter-text">Hello Argent Messi</h1> -->
+
+
+<!-- <header>
+    <h1> My Wedsite</h1>
+</header>
+
+<nav>
+    <a href="https://home.google.com/welcome/">Home</a>
+    <a href="https://www.merriam-webster.com/dictionary/about">About</a>
+</nav>
+
+<section>
+    <footer>
+        Copyright 2026
+    </footer>
+</section>
+
+ <header></header>
+    #top area
+ <nav></nav>
+    #menu link
+ <section></section>
+    #page section 
+ <article></article>
+    #Independent content
+ <aside></aside>
+    #side content
+ <footer></footer> -->
+    <!-- #bottom area -->
+
+<!-- <form>
+    <label>Name</label>
+    <input type="text" placeholder="Enter Name:">
+    <label>Email</label>
+    <input type="text" placeholder="Enter a Valid Email:">
+    <label>Password</label>
+    <input type="text" placeholder="Password">
+    <label>Date</label>
+    <input type="datetime-local">
+    <label>File Upload</label>
+    <input type="file">
+    <button>submit</button>
+
+</form> -->
+
+ <!-- <h1 class="glitter-text">CSS box model</h1>
+ <p class="fade-slide-text">This is a box model</p>
+ <div class="glitter-text">Pikachu</div>
+
+ <h2>Card</h2>
+ <p><strong>card</strong></p>
+ <p><strong>width</strong></p>
+ <p><strong>padding</strong></p>
+ <p><strong>border</strong></p>
+ <p><strong>margin</strong></p>
+
+ <div class="card">This is a card</div>
+ <div class="card">Another card</div> -->
+
+<!-- <h2 class="flex">Flexbox</h2>
+<div>A</div>
+<div>B</div>
+<div>C</div>
+
+<h2 class="grid">Grid</h2>
+<div>BOX</div>
+<div>BOX</div>
+<div>BOX</div>
+<div>BOX</div>
+<div>BOX</div>
+<div>BOX</div> -->
+
+<!-- <h2 class="glitter-text">Responsive Design</h2>
+<p class="fade-slide-text">
+    Use to change the style on small screens</p>
+<div class="box">Resize the window</div>
+<div class="screen_label">You are on big screen</div>
+
+<div class="cards">
+<div class="card">Card 1</div>
+<div class="card">Card 2</div>
+<div class="card">Card 3</div> </div>
+
+<script>
+    function checkScreen(){
+        var label= document.getElementById("lable");
+        if(window.innerWidth <= 600){
+            label.innerText = "you are on the samll screen";
+        }else{
+            label.innerText = "you are on the big screen";    
+        }
+    }
+    window.addEventListener("resize",checkScreen);
+    checkScreen();
+</script> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+</head>
+<body class="p-4">
+
+  <h1>Bootstrap Quick-start</h1>
+  <p>No CSS file needed. Just use Bootstrap class names!</p>
+
+  <hr>
+
+ 
+  <h3>Buttons</h3>
+  <button class="btn btn-primary">Primary</button>
+  <button class="btn btn-danger">Danger</button>
+  <button class="btn btn-success">Success</button>
+
+  <hr>
+
+  <h3>Alert</h3>
+  <div class="alert alert-warning">This is a warning!</div>
+
+  <hr>
+
+  <h3>Grid (3 Columns)</h3>
+  <div class="row">
+    <div class="col bg-primary text-white p-3">Col 1</div>
+    <div class="col bg-danger text-white p-3">Col 2</div>
+    <div class="col bg-success text-white p-3">Col 3</div>
+  </div>
+
+  <hr>
+
+  
+  <h3>Card</h3>
+  <div class="card" style="width: 300px;">
+    <div class="card-body">
+      <h5 class="card-title">Card Title</h5>
+      <p class="card-text">This is a Bootstrap card.</p>
+      <button class="btn btn-primary">Click</button>
+    </div>
+  </div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Selection</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f7fb;
+color:#333;
+}
+
+header{
+background:#0d6efd;
+padding:20px 8%;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:70px 8%;
+background:white;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:550px;
+}
+
+.hero h1{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.hero p{
+margin-bottom:20px;
+line-height:1.7;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#0d6efd;
+color:white;
+text-decoration:none;
+border-radius:6px;
+margin-right:10px;
+}
+
+.btn:hover{
+background:#084298;
+}
+
+.hero img{
+width:450px;
+max-width:100%;
+}
+
+section{
+padding:70px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:35px;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:15px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.feature{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+form{
+max-width:600px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+input,select,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+background:#0d6efd;
+color:white;
+border:none;
+padding:15px;
+width:100%;
+font-size:18px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#084298;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+.hero{
+text-align:center;
+}
+
+.hero img{
+margin-top:30px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<nav>
+
+<h2>Skill Academy</h2>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">Courses</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Learn Skills That Build Your Career</h1>
+
+<p>
+Choose from our industry-ready courses and gain hands-on experience through projects and expert mentorship.
+</p>
+
+<a href="#courses" class="btn">Explore Courses</a>
+
+<a href="#register" class="btn">Register</a>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700" alt="Student">
+
+</section>
+
+<section id="courses">
+
+<h2 class="section-title">Popular Courses</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Python Full Stack</h3>
+<p>Learn HTML, CSS, JavaScript, Python, Django and SQL.</p>
+</div>
+
+<div class="card">
+<h3>Data Science</h3>
+<p>Machine Learning, AI, Python and Visualization.</p>
+</div>
+
+<div class="card">
+<h3>UI/UX Design</h3>
+<p>Create beautiful user experiences using Figma.</p>
+</div>
+
+<div class="card">
+<h3>Cloud Computing</h3>
+<p>AWS, Azure, Docker and Kubernetes.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Why Choose Us?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>Expert Trainers</h3>
+<p>Learn from experienced professionals.</p>
+</div>
+
+<div class="feature">
+<h3>Projects</h3>
+<p>Build real-world applications.</p>
+</div>
+
+<div class="feature">
+<h3>Certificate</h3>
+<p>Earn an industry-recognized certificate.</p>
+</div>
+
+<div class="feature">
+<h3>Placement Support</h3>
+<p>Resume building and interview preparation.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="register">
+
+<h2 class="section-title">Register Now</h2>
+
+<form id="courseForm">
+
+<input
+type="text"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+placeholder="Email Address"
+required>
+
+<input
+type="tel"
+placeholder="Phone Number"
+required>
+
+<select required>
+
+<option value="">Select Course</option>
+
+<option>Python Full Stack</option>
+
+<option>Data Science</option>
+
+<option>UI/UX Design</option>
+
+<option>Cloud Computing</option>
+
+</select>
+
+<textarea
+rows="5"
+placeholder="Message">
+</textarea>
+
+<button type="submit">Submit Registration</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Skill Academy | All Rights Reserved</p>
+
+</footer>
+
+<script>
+
+document.getElementById("courseForm").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+alert("Registration Successful!");
+
+this.reset();
+
+});
+
+</script>
+
+</body>
+</html>
+
+

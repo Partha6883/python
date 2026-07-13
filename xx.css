@@ -1,0 +1,118 @@
+h1{
+  color: gold;
+  font-size:50px;
+  -webkit-text-stroke: 2px black;
+}
+
+.fade-slide-text {
+  font-family: sans-serif;
+  font-size: 3rem;
+  animation: slideUpFade 1.2s ease-out forwards; 
+}
+
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+
+.glitter-text {
+  font-size: 80px;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  
+  
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  
+ 
+  background: url('https://postimg.co') repeat;
+  
+ 
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+p{
+  color: sienna;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+div{
+  color: sienna;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card{
+  width:600px;
+  padding:300px;
+  border: 2px solid black;
+  margin: 30px;
+  background-color: aqua;
+}
+
+.flex{
+  color: chocolate;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+.grid{
+  color: chocolate;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px;
+}
+
+.box{
+   background-color: darkred;
+   padding: 20px;
+   font-size:  large;
+}
+
+.screen_label{
+  background-color: steelblue;
+  color: aquamarine;
+  padding: 10px 20px;
+  font-size: large;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card{
+  background-color: goldenrod;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media(max-width:600px){
+  .cards{
+    grid-template-columns: 1fr;
+  }
+  .screen_label{
+    background-color: olive;
+  }
+}
