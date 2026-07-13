@@ -166,7 +166,8 @@
 </body>
 </html> -->
 
-<!DOCTYPE html>
+"**************************************************************"
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -527,6 +528,21 @@ this.reset();
 </script>
 
 </body>
-</html>
+</html> -->
 
+"************************************************************"
 
+<h2>DOM</h2>
+<p id="text">Original Text</p>
+<button onclick="changeText()">Change Text</button>
+<h1 id="title">Hello</h1>
+
+<h2>2. Events</h2>
+  <button id="myBtn">Click Me</button>
+  <p id="msg"></p>
+
+  <script>
+    document.getElementById("myBtn").addEventListener("click", function() {
+      document.getElementById("msg").innerText = "Button Clicked!";
+    });
+  </script>
