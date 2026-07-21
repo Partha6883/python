@@ -18,11 +18,11 @@ def book_list(request):
 
 
 # Function-based view
-def book_detail(request, pk):
+def book_details(request, pk):
     book = get_object_or_404(Book, pk=pk)
     reviews = book.reviews.select_related('user').order_by('-created_at')
     avg = reviews.aggregate(avg_rating=Avg('rating'))['avg_rating']
-    return render(request, 'books/book_detail.html', {
+    return render(request, 'books/book_details.html', {
         'book': book,
         'reviews': reviews,
         'avg': avg,
@@ -39,7 +39,7 @@ def add_review(request, pk):
             review.book = book
             review.user = request.user
             review.save()
-            return redirect('book_detail', pk=pk)
+            return redirect('book_details', pk=pk)
     return render(request, 'books/add_review.html', {'form': form, 'book': book})
 
 class BookCreateView(LoginRequiredMixin, CreateView):

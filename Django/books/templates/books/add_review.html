@@ -8,6 +8,6 @@
         {% csrf_token %}
         {{ form.as_p }}
         <button class="btn" type="submit">Submit Review</button>
-        <a href="{% url 'book_detail' book.pk}" style="margin-left: 10px;">Cancel</a>
+        <a href="{% url 'book_details' book.pk}" style="margin-left: 10px;">Cancel</a>
     </form>
     {% endblock %}

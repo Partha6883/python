@@ -13,7 +13,7 @@ def login_view(request):
             return redirect ('book_list')
         else:
             messages.error(request,'Invalid username or password.')
-    return render(request,'acconys/login.html',{'form':form})
+    return render(request,'acconts/login.html',{'form':form})
 
 def logout_view(request):
     logout(request)
